@@ -1,5 +1,8 @@
 # car_rent_quiz
 
+Nama : Harya Anggitama
+NIM  : 123190125
+
 A new Flutter project.
 
 ## Getting Started
