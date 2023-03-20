@@ -1,7 +1,10 @@
 # car_rent_quiz
 
 Nama : Harya Anggitama
+
 NIM  : 123190125
+
+Flutter Version : 3.3.10
 
 A new Flutter project.
 
