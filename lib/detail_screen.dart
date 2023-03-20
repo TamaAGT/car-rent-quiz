@@ -10,6 +10,7 @@ class DetailScreen extends StatefulWidget {
 }
 
 class _DetailScreenState extends State<DetailScreen> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,7 +64,7 @@ class _DetailScreenState extends State<DetailScreen> {
               ),
             ),
             ElevatedButton(
-                onPressed: (){
+                onPressed: widget.car.available == true ? (){
                   setState(() {
                     widget.car.available = false;
                   });
@@ -73,7 +74,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   );
 
                   ScaffoldMessenger.of(context).showSnackBar(snackBar);
-                },
+                }: null,
                 child: const Text('Pesan')
             ),
             Container(
